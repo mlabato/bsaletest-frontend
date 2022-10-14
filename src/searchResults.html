@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/6e928756da.js" crossorigin="anonymous"></script>
+    
+    <script src="../scripts/searchEngine.js"></script>
+    <script src="../scripts/searchedProducts.js"></script>
+    <title>B-SALE MARKET</title>
+  </head>
+  <body class="font-montserrat">
+
+    <nav class=" bg-[#EA5B0C] group  opacity-60 h-1/5">
+    <div class="mx-[20rem] flex flex-row items-center justify-between p-8">
+      <div class="text-4xl text-gray-100 "> BSALE Test</div>
+      <form id="search-form" method="POST" class="relative">
+        <input  class="border-2 border-gray-100 bg-gray-100  text-[#EA5B0C]  rounded-3xl p-2" id="search-bar-input"> </input>
+        <button><i class="fa-solid fa-magnifying-glass border-gray-100 absolute right-4 bottom-3 cursor-pointer text-[#EA5B0C]"></i></button>
+      </form>
+    </div>
+    </nav>
+
+
+
+    <main class="bg-gray-100 h-full">
+        <section class="flex flex-row flex-wrap mx-[20rem]" id="products-container">
+        </section>
+
+
+
+    </main>
+
+
+  </body>
+</html>
